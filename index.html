@@ -5,57 +5,87 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>My Portfolio Site</title>
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
+	
 	<body>
 		<div class="wrapper">
+			
 			<header class="header">
 				<div class="logo">
-					<img src="/img/bh_logo_white.png" class="logo_image" alt="logo-image">
-					</div>
+					<img src="/img/bh_logo_white.png" class="logo-image" alt="logo-image">
+				</div>
 				<div class="header-text">
 					<h1 class="header-main-text">Brian Haughey</h1>
 					<h3 class="header-sub-text">Aspiring web developer</h3>
 				</div>
 			</header>
-			<div class="hero"></div>
+			
+			<div class="hero"></div>		     
+			
 			<section class="featured-work">
 				<h2>Featured Work</h2>
 				<div class="featurettes">
 					<div class="featurette-box">
-						<img src="/img/csm_screenshot.jpg"  alt="Cabinetshop Maestro Website">
+						<img src="/img/csm-screenshot.jpg"
+					     srcset="/img/csm-screenshot.jpg 1200w,
+					             /img/csm-screenshot-sm.jpg 700w"
+					     size="(min-width: 901px) 32vw,
+					           (min-width: 491px) and (max-width: 900px) 60vw,
+					           (max-width: 490px) 100vw"
+					     alt="Cabinetshop Maestro Website" />
 						<h3>CS Maestro</h3>
-						<a href="http://www.cabinetshopsoftware.com/">http://www.cabinetshopsoftware.com/</a>
+						<a href="http://www.cabinetshopsoftware.com/" target="_blank">http://www.cabinetshopsoftware.com/</a>
 					</div>
+					
 					<div class="featurette-box">
-						<img src="/img/bhww_screenshot.jpg"  alt="BH Woodworking Website">
+						<img src="/img/bhww-screenshot.jpg"
+					     srcset="/img/bhww-screenshot.jpg 1200w,
+					             /img/bhww-screenshot-sm.jpg 700w"
+					     size="(min-width: 901px) 32vw,
+					           (min-width: 491px) and (max-width: 900px) 60vw,
+					           (max-width: 490px) 100vw"
+					     alt="BH Woodworking Website" />
 						<h3>BH Woodworking </h3>
-						<a href="http://www.bhwoodworking.com/">http://www.bhwoodworking.com/</a>
+						<a href="http://www.bhwoodworking.com/" target="_blank">http://www.bhwoodworking.com/</a>
 					</div>
+					
 					<div class="featurette-box">
-						<img src="/img/kz_screenshot.jpg" alt="Interior Design Website">
+						<img src="/img/kz-screenshot.jpg"
+					     srcset="/img/kz-screenshot.jpg 1200w,
+					             /img/kz-screenshot-sm.jpg 700w"
+					     size="(min-width: 901px) 32vw,
+					           (min-width: 491px) and (max-width: 900px) 60vw,
+					           (max-width: 490px) 100vw"
+					     alt="Interior Design Website" />
 				  	<h3>Zanoni Interiors</h3>
-						<a href="http://www.zanoniinteriordesign.com/">http://www.zanoniinteriordesign.com/</a>
+						<a href="http://www.zanoniinteriordesign.com/" target="_blank">http://www.zanoniinteriordesign.com/</a>
 					</div>
 				</div>
 			</section>
+			
 			<article class="article">
 			  <h2>About </h2>
 			  <p>
 			  	Hi, I'm Brian Haughey and I am an aspiring web developer currently taking my first Udacity Nanodegree program -- Front End Web Development.
 			  </p>
+			  
 			  <p>
 			  I currently have two businesses. The first is BH Woodworking, which is a small custom cabinetry shop located in Lakemoor, IL. We build, finish and install custom cabinetry for clients in the Chicagoland area.
 			  </p>
+			  
 			  <p>My second business is Cabinetshop Maestro which provides a project management software system to fellow custom cabinetmakers.
 			  </p>
+			  
 			  <p>
 			  	I have always loved computers and I am mostly self-taught. I am very much looking forward to this Front End Nanodegree (and hopefully others after) to help provide me with more experience and knowledge for future endeavors and opportunities.
 			  </p>
 			</article>
+			
 			<footer class="footer">
 				 <p>&copy; 2018 Brian Haughey</p>
 			</footer>
-		</div>
+			
+		</div><!-- end of wrapper -->
 	</body>
 </html>
